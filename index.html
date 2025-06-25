@@ -9,10 +9,10 @@
 <body>
 	<div class="nav">
 		<h1>Dream PC Build</h1>
-		<nav>
+		<nav class="nav2">
 			<ul>
 				<li>
-					<a href="#mybuild">My Build</a>
+					<a href="#myFinalbuild">My Build</a>
 				</li>
 			</ul>
 			<button>Dark Mode</button>
@@ -21,24 +21,84 @@
 		
 
 	</div>
-	<h2>My <span>Build</span></h2>
-	<div>
-		<form class="parts">
-			<label for="pc-case">Case<input type="text"></label>
-		    <label for="GPU">GPU<input type="text"></label>
-		    <label for="CPU">CPU<input type="text"></label>
-		    <label for="RAM">RAM<input type="text"></label>
-		    <label for="storage">Storage<input type="text"></label>
-		    <label for="power-supply-unit">PSU<input type="text"></label>
-			<button>Submit</button>
+	<h2 class="MyBuildhead">My <span>Build</span></h2>
+	<div class="form-div">
+		<form class="parts" id="partsid">
+			<div class="individualComponent" id="individualcomponemt-1">
+				<div class="input-box" id="pcCase" >
+				  <label for="case">Case:</label>
+				  <input id="case" type="text" name="pc-case" placeholder="Your case">
+				  <img id="case-pic" src="https://images.unsplash.com/photo-1660855551550-2696677aaf28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyJTIwY2FzZXxlbnwwfHwwfHx8MA%3D%3D" alt="case-image">				
+			    </div>
+			</div>
+			<br>
+
+		   <div class="individualComponent" id="individualcomponemt-2">
+			    <div  class="input-box" id="gpu">
+			      <label for="gpuInput">GPU:</label>
+				  <input id="gpuInput" type="text" name="gpu" placeholder="Your GPU">
+				  <img id="graphicscard" src="https://images.unsplash.com/photo-1587134160474-cd3c9a60a34a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhcGhpY3MlMjBjYXJkfGVufDB8fDB8fHww" alt="GPU-image">
+		        </div>
+		   </div>
+		   <br> 			
+
+		    <div class="individualComponent" id="individualcomponemt-3">
+				<div class="input-box" id="cpu">
+				  <label for="cpuInput">CPU:</label>
+				  <input id="cpuInput" type="text" name="cpu" placeholder="Your CPU">
+				  <img id="processor" src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3B1fGVufDB8fDB8fHww" alt="CPU-image">
+			    </div>
+			</div>
+			<br>
+
+		    <div class="individualComponent" id="individualcomponemt-4">
+				<div class="input-box" id="ram">
+				  <label for="ramInput">RAM:</label>
+				  <input id="ramInput" type="text" name="ram" placeholder="Your RAM">
+				  <img id="ram-pic" src="https://images.unsplash.com/photo-1562976540-1502c2145186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFtfGVufDB8fDB8fHww" alt="RAM-image">
+			    </div>
+			</div>
+			<br>
+
+		    <div class="individualComponent" id="individualcomponemt-5">
+				<div class="input-box" id="storage">
+				  <label for="storageinput">Storage:</label>
+				  <input id="storageinput" type="text" name="storage" placeholder="Your Storage">
+				  <img id="drive-pic" src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFyZCUyMGRyaXZlfGVufDB8fDB8fHww" alt="storage-image">
+			    </div>
+			</div>
+			<br>
+
+		    <div class="individualComponent" id="individualcomponemt-6">
+				<div class="input-box" id="psu">
+				  <label for="power-supply-unit">PSU:</label>
+				  <input id="power-supply-unit" type="text" name="power-supply-unit" placeholder="Power supply unit">
+				  <img id="psu-pic" src="https://images.unsplash.com/photo-1675954031909-ead493243be8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG93ZXIlMjBzdXBwbHklMjB1bml0fGVufDB8fDB8fHww" alt="PSU-image">
+			    </div>
+			</div>	
+			
+			<div class="btns">
+				<div id="btn">
+				  <input id="submit" type="submit">
+				  <br>
+				  <input id="reset" type="reset">
+			    </div>
+			</div>
 
 		</form>
 		
 	</div>
-	<section>
-
+	<section class="section" id="myFinalbuild">
+		<img id="final-build-pic" src="https://images.unsplash.com/photo-1660855551550-2696677aaf28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyJTIwY2FzZXxlbnwwfHwwfHx8MA%3D%3D" alt="final-build">
 	</section>
 	
 </body>
+<footer>
+	<div>
+		<ul>
+
+		</ul>
+	</div>
+</footer>
 <script src="./script.js"></script>
 </html>
