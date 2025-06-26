@@ -95,15 +95,19 @@ body {
 
 #storageinput, #ramInput, #cpuInput, #power-supply-unit, #gpuInput, #case{
 	height: 2.5vh;
-	width: 300px;
+	width: 350px;
 	justify-self:flex-start;
 	margin-top: 70px;
 	background-color: transparent;
-	color: transparent;
+	color: white;
 	border-radius: 5px;
 	border-style: solid;
 	border-color: white;
 	border-width: 1px;
+	font-weight: 100;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	padding: 10px;
 	/* border-right: 0px;
 	border-left: 0px;
 	border-top: 0px;
@@ -189,7 +193,13 @@ footer div {
 	/* border-bottom-left-radius: 40px;
 	border-bottom-right-radius: 20px; */
 	box-shadow: 3px 3px 15px black;
+	border-radius: 20px;
+	transition: transform 300ms;
 }
+.individualComponent:hover {
+	transform: translateX(10px)translateY(-10px);
+}
+
 .btns {
 	justify-items: center;
 	padding: 10px;	
