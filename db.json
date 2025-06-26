@@ -1,1 +1,34 @@
+{
+	"pc-components": [
+		{
+			"id":1,
+			"case":"hsdhhh asg gsdh",
+			"gpu":"RTX 4090",
+			"cpu":"dfsdsf",
+			"ram":"dsfds",
+			"storage":"sdfsd",
+			"power-supply-unit":"hshhjsd"
 
+		},
+		{
+			"id":2,
+			"case":"hsdhhh asg gsdh",
+			"gpu":"GTX 1080ti",
+			"cpu":"dfsdsf",
+			"ram":"dsfds",
+			"storage":"sdfsd",
+			"power-supply-unit":"hshhjsd"
+
+		},
+		{
+			"id":3,
+			"case":"hsdhhh asg gsdh",
+			"gpu":"GTX 980",
+			"cpu":"dfsdsf",
+			"ram":"dsfds",
+			"storage":"sdfsd",
+			"power-supply-unit":"hshhjsd"
+
+		}
+	]
+}
