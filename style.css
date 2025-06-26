@@ -8,7 +8,7 @@
 body {
 	padding: 0px;
 	margin: 0px;
-	background-image: url(https://images.unsplash.com/photo-1587202372583-49330a15584d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXIlMjBjYXNlfGVufDB8fDB8fHww);
+	background-image: url('./assets/christian-wiediger-XfSk_BMLj0A-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size:100%;
 	background-position: top;
@@ -17,18 +17,22 @@ body {
 .nav {
 	display: flex;
 	justify-content: space-around;
-	background-color:rgb(58, 7, 58);
+	background:transparent;
 }
 .nav2{
 	display: flex;
 	flex-direction: row;
 	justify-self: center;
 	gap: 10px;
+	
 }
-.nav2 ul li {
+.nav2 ul li a{
 	list-style: none;
 	color: black;
 	text-decoration: none;
+	font-style: normal;
+	text-decoration-style: none;
+	color: aqua;
 	
 }
 
@@ -39,10 +43,22 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 1rem;
+	border-radius: 15px;
+	border-style: none;
+	cursor: pointer;
+	transition: all 200ms;
+}
+#darkmode:hover {
+
+	color: black;
+	transform: translateX(10px);
+	background-color: wheat;
+
 }
 
 .MyBuildhead {
 	text-align: center;
+	color: beige;
 }
 
 .form-div{
@@ -77,14 +93,22 @@ body {
 	
 }
 
-.input-box, #case-pic, #graphicscard, #processor, #ram-pic, #drive-pic, #psu-pic {
-	height: 30vh;
-	width: fit-content;
-}
-
-.input-box, #case, #gpuInput, #cpuInput, #ramInput, #storageinput, #power-supply-unit{
+#storageinput, #ramInput, #cpuInput, #power-supply-unit, #gpuInput, #case{
 	height: 2.5vh;
 	width: 300px;
+	justify-self:flex-start;
+	margin-top: 70px;
+	background-color: transparent;
+	color: transparent;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	/* border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	color: white; */
+	
 } 
 
 #btn {
@@ -97,18 +121,39 @@ body {
 	width: 150px;
 	border-radius: 5px;
 	border-style: none;
+	transition: all 300ms;
 }
 
 #reset {
 	width: 150px;
 	border-radius: 5px;
 	border-style: none;
+	transition: all 300ms;
 }
+
+#submit:hover{
+	color: white;
+	transform: translateX(10px) translateY(-5px);
+	background-color: darkred;
+}
+#reset:hover{
+	color: white;
+	transform: translateX(-5px) translateY(5px);
+	background-color: darkred;
+
+} 
 
 .section {
 	display: block;
 	justify-self: center;
 	align-content: center;
+	background-image: url('./assets/andy-holmes-EOAKUQcsFIU-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80vh;
+	background-size: cover;
+	width: 100%;
+	
 }
 
 #final-build-pic {
@@ -138,40 +183,83 @@ footer {
 	background-color: black;
 }
 #individualcomponemt-1{
-	background-image: url(https://images.unsplash.com/photo-1660855551550-2696677aaf28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyJTIwY2FzZXxlbnwwfHwwfHx8MA%3D%3D);
+	background-image: url('./assets/anthony-roberts-fMbiAi0rbkA-unsplash.jpg');
 
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #individualcomponemt-2{
-	background-image: url(https://images.unsplash.com/photo-1587134160474-cd3c9a60a34a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhcGhpY3MlMjBjYXJkfGVufDB8fDB8fHww);
+	background-image: url('./assets/nana-dua-1-Sfd9QSPi4-unsplash.jpg');
 
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #individualcomponemt-3{
-	background-image: url(https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3B1fGVufDB8fDB8fHww);
+	background-image: url('./assets/francesco-vantini-ZavLsrP4CDI-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #individualcomponemt-4{
-	background-image: url(https://images.unsplash.com/photo-1562976540-1502c2145186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFtfGVufDB8fDB8fHww);
+	background-image: url('./assets/liam-briese-lYxQ5F9xBDM-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #individualcomponemt-5{
-	background-image: url(https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFyZCUyMGRyaXZlfGVufDB8fDB8fHww);
+	background-image: url('./assets/benjamin-lehman-GNyjCePVRs8-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #individualcomponemt-6{
-	background-image: url(https://images.unsplash.com/photo-1675954031909-ead493243be8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG93ZXIlMjBzdXBwbHklMjB1bml0fGVufDB8fDB8fHww);
+	background-image: url('./assets/andrey-matveev-GwJLVb9XPxc-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
+}
+
+
+
+h1 {
+	color: aqua;
+}
+#headingstyling {
+	color: rgb(226, 162, 43);
+}
+#psu-label {
+	color: black;
+	font-size: 150px;
+}
+#stlabel {
+	color: white;
+	font-size: 100px;
+}
+#cpulabel {
+	color: white;
+	font-size: 150px;
+}
+#gpulabel{
+	color: white;
+	font-size: 150px;
+}
+#ramlabel{
+	color: white;
+	font-size: 150px;
+}
+#caselabel {
+	font-size: 150px;
+}
+
+
+.final-text {
+	background-color: black;
+	width: 600px;
+	height: 60vh;
+	justify-self: center;
+	border-radius: 30px;
+	text-align: center;
+	color: beige;
 }
