@@ -4,14 +4,25 @@
     font-weight: 600;
     font-style: normal;
 }
+:root {
+	--clr-dark: black;
+	--clr-light: rgb(54, 54, 54);
+}
 
 body {
+	color: var(--clr-light);
+	background-color: var(--clr-dark);
 	padding: 0px;
 	margin: 0px;
-	background-image: url('./assets/christian-wiediger-XfSk_BMLj0A-unsplash.jpg');
+	/* background-image: url('./assets/christian-wiediger-XfSk_BMLj0A-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size:100%;
-	background-position: top;
+	background-position: top; */
+}
+.dark-mode{
+	--clr-light: black;
+	--clr-dark: gray
+	;
 }
 
 .nav {
@@ -69,7 +80,7 @@ body {
 }
 
 .parts {
-	background-color: rgb(63, 5, 5);
+	background-color: var(--clr-dark);
 	border-radius: 10px;
 	width: 900px;
 	height:auto;
@@ -253,7 +264,7 @@ h1 {
 	color: rgb(226, 162, 43);
 }
 #psu-label {
-	color: black;
+	color: var(--clr-light);
 	font-size: 150px;
 }
 #stlabel {
