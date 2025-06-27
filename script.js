@@ -7,9 +7,6 @@ const finalTest = document.querySelector('.final-test')
 darkmode.addEventListener('click', ()=>{
 	document.body.classList.toggle('dark-mode')
 	document.body.style.transition='1s'
-	finalTest.classList.toggle('dark-mode')
-
-	
 })
 
 submitbtn.addEventListener('click', ()=>{
