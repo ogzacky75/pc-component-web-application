@@ -1,63 +1,72 @@
 {
-	"pc-components": [{
-		"gpus": [
-			"NVIDIA GeForce RTX 4090",
-			"NVIDIA GeForce RTX 4080 Super",
-			"NVIDIA GeForce RTX 4070 Ti",
-			"NVIDIA GeForce RTX 4060 Ti",
-			"NVIDIA GeForce RTX 3060",
-			"AMD Radeon RX 7900 XTX",
-			"AMD Radeon RX 7800 XT",
-			"AMD Radeon RX 7600 XT",
-			"Intel Arc A770",
-			"AMD Radeon RX 6750 XT"
-		],
-		"cpus": [
-			"Intel Core i9-14900K",
-			"Intel Core i7-14700K",
-			"Intel Core i5-14400F",
-			"Intel Core i5-13600K",
-			"Intel Core i5-12400F",
-			"AMD Ryzen 9 7950X",
-			"AMD Ryzen 9 7900X",
-			"AMD Ryzen 7 7700",
-			"AMD Ryzen 5 7600X",
-			"AMD Ryzen 5 5600"
-		],
-		"rams":[
-			"Corsair Vengeance DDR5 32GB 6000MHz",
-			"G.Skill Trident Z5 RGB DDR5 32GB 6000MHz",
-			"Kingston Fury Beast DDR5 32GB 5600MHz",
-			"Patriot Viper Venom DDR5 32GB 6200MHz",
-			"TeamGroup T-Force Delta RGB DDR5 32GB 6000MHz",
-			"Corsair Dominator Platinum DDR5 32GB 5600MHz",
-			"G.Skill Ripjaws S5 DDR5 32GB 6000MHz",
-			"TeamGroup T-Create DDR5 32GB 6000MHz",
-			"Crucial Ballistix DDR4 16GB 3200MHz", "Corsair Vengeance LPX DDR4 32GB 3600MHz"
-		],
-		"storages":[
-			"Samsung 990 Pro 2TB NVMe SSD",
-			"WD Black SN850X 2TB NVMe SSD",
-			"Crucial T700 2TB NVMe SSD",
-			"ADATA Legend 960 1TB NVMe SSD",
-			"Samsung 980 Pro 2TB NVMe SSD",
-			"Lexar NM790 1TB NVMe SSD",
-			"Kingston NV2 1TB NVMe SSD",
-			"Samsung 870 EVO 1TB SATA SSD",
-			"PNY XLR8 CS3140 2TB NVMe SSD",
-			"Crucial MX500 1TB SATA SSD"
-		],
-		"psus":[
-			"Corsair RM1000x 1000W 80+ Gold",
-			"Seasonic PRIME TX-1000 80+ Titanium",
-			"EVGA SuperNOVA 1200 P6 80+ Platinum",
-			"Cooler Master V1000 Gold V2",
-			"Thermaltake Toughpower GF A3 850W",
-			"NZXT C750 750W 80+ Gold",
-			"be quiet! Pure Power 12 M 750W",
-			"SilverStone DA750 750W 80+ Gold",
-			"Antec NE850G M 850W 80+ Gold",
-			"Gigabyte P650B 650W 80+ Bronze"
-		]
-	}
-]}
+        "parts":{
+                "case": [
+                        { "id": 1, "name": "NZXT H510" },
+                        { "id": 2, "name": "Lian Li PC-O11 Dynamic" },
+                        { "id": 3, "name": "Cooler Master MasterBox Q300L" },
+                        { "id": 4, "name": "Fractal Design Meshify C" },
+                        { "id": 5, "name": "Corsair 4000D Airflow" },
+                        { "id": 6, "name": "Phanteks Eclipse P400A" }
+                ],
+                "gpus": [
+                        { "id": 1, "name": "NVIDIA GeForce RTX 4090" },
+                        { "id": 2, "name": "NVIDIA GeForce RTX 4080 Super" },
+                        { "id": 3, "name": "NVIDIA GeForce RTX 4070 Ti" },
+                        { "id": 4, "name": "NVIDIA GeForce RTX 4060 Ti" },
+                        { "id": 5, "name": "NVIDIA GeForce RTX 3060" },
+                        { "id": 6, "name": "AMD Radeon RX 7900 XTX" },
+                        { "id": 7, "name": "AMD Radeon RX 7800 XT" },
+                        { "id": 8, "name": "AMD Radeon RX 7600 XT" },
+                        { "id": 9, "name": "Intel Arc A770" },
+                        { "id": 10, "name": "AMD Radeon RX 6750 XT" }
+                ],
+                "cpus": [
+                        { "id": 1, "name": "Intel Core i9-14900K" },
+                        { "id": 2, "name": "Intel Core i7-14700K" },
+                        { "id": 3, "name": "Intel Core i5-14400F" },
+                        { "id": 4, "name": "Intel Core i5-13600K" },
+                        { "id": 5, "name": "Intel Core i5-12400F" },
+                        { "id": 6, "name": "AMD Ryzen 9 7950X" },
+                        { "id": 7, "name": "AMD Ryzen 9 7900X" },
+                        { "id": 8, "name": "AMD Ryzen 7 7700" },
+                        { "id": 9, "name": "AMD Ryzen 5 7600X" },
+                        { "id": 10, "name": "AMD Ryzen 5 5600" }
+                ],
+                "rams": [
+                        { "id": 1, "name": "Corsair Vengeance DDR5 32GB 6000MHz" },
+                        { "id": 2, "name": "G.Skill Trident Z5 RGB DDR5 32GB 6000MHz" },
+                        { "id": 3, "name": "Kingston Fury Beast DDR5 32GB 5600MHz" },
+                        { "id": 4, "name": "Patriot Viper Venom DDR5 32GB 6200MHz" },
+                        { "id": 5, "name": "TeamGroup T-Force Delta RGB DDR5 32GB 6000MHz" },
+                        { "id": 6, "name": "Corsair Dominator Platinum DDR5 32GB 5600MHz" },
+                        { "id": 7, "name": "G.Skill Ripjaws S5 DDR5 32GB 6000MHz" },
+                        { "id": 8, "name": "TeamGroup T-Create DDR5 32GB 6000MHz" },
+                        { "id": 9, "name": "Crucial Ballistix DDR4 16GB 3200MHz" },
+                        { "id": 10, "name": "Corsair Vengeance LPX DDR4 32GB 3600MHz" }
+                ],
+                "storages": [
+                        { "id": 1, "name": "Samsung 990 Pro 2TB NVMe SSD" },
+                        { "id": 2, "name": "WD Black SN850X 2TB NVMe SSD" },
+                        { "id": 3, "name": "Crucial T700 2TB NVMe SSD" },
+                        { "id": 4, "name": "ADATA Legend 960 1TB NVMe SSD" },
+                        { "id": 5, "name": "Samsung 980 Pro 2TB NVMe SSD" },
+                        { "id": 6, "name": "Lexar NM790 1TB NVMe SSD" },
+                        { "id": 7, "name": "Kingston NV2 1TB NVMe SSD" },
+                        { "id": 8, "name": "Samsung 870 EVO 1TB SATA SSD" },
+                        { "id": 9, "name": "PNY XLR8 CS3140 2TB NVMe SSD" },
+                        { "id": 10, "name": "Crucial MX500 1TB SATA SSD" }
+                ],
+                "psus": [
+                        { "id": 1, "name": "Corsair RM1000x 1000W 80+ Gold" },
+                        { "id": 2, "name": "Seasonic PRIME TX-1000 80+ Titanium" },
+                        { "id": 3, "name": "EVGA SuperNOVA 1200 P6 80+ Platinum" },
+                        { "id": 4, "name": "Cooler Master V1000 Gold V2" },
+                        { "id": 5, "name": "Thermaltake Toughpower GF A3 850W" },
+                        { "id": 6, "name": "NZXT C750 750W 80+ Gold" },
+                        { "id": 7, "name": "be quiet! Pure Power 12 M 750W" },
+                        { "id": 8, "name": "SilverStone DA750 750W 80+ Gold" },
+                        { "id": 9, "name": "Antec NE850G M 850W 80+ Gold" },
+                        { "id": 10, "name": "Gigabyte P650B 650W 80+ Bronze" }
+                ]
+        }
+}
