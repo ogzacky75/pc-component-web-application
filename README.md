@@ -6,6 +6,7 @@ Isaac Ogutu
 # How The Application Works
 
 User inputs their pc components inside the specified places
+
 User is limited to the number of components: 
 
   CPUs:Intel Core i9-14900K,
@@ -69,4 +70,13 @@ Storage:Samsung 990 Pro 2TB NVMe SSD,
 		Fractal Design Meshify C,
 		Corsair 4000D Airflow,
 		Phanteks Eclipse P400A
+
+After user enters his/her component when available on the list, 
+his or her build is shown on my final build section
+
+Anytyme user enters another data the one data contained in the Your Final build section will be erased
+
+User can use the reset button to clear everything inside if user wants to add new data
+# Liscence 
+ MIT
        
