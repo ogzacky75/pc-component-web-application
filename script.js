@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/parts");
+      const response = await fetch("https://pc-web-app-server.onrender.com/parts");
       if (!response.ok) throw new Error("Could not load database.");
       const data = await response.json();
 
